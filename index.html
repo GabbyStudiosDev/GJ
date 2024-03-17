@@ -73,6 +73,13 @@
             text-align: center;
         }
 
+        .rounded-box {
+            background-color: #E4E4E4;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
         footer {
             background-color: #E0856E;
             color: #fff;
@@ -81,7 +88,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap; /* Per gestire il wrap su schermi più piccoli */
+            flex-wrap: wrap;
         }
 
         footer p {
@@ -142,7 +149,7 @@
 </head>
 
 <body>
-
+<iframe src="header.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
     <header>
         <h1>Gabriel Jones</h1>
         <nav>
@@ -159,7 +166,7 @@
         <table>
             <tr>
                 <td><img src="met.png" alt="Immagine di me"></td>
-                <td>
+                <td class="rounded-box">
                     <h2>Chi sono?</h2>
                     <p>Conosciuto come onlygabby, il mio nome è Gabriel, sono un nerd, sono esperto nella formazione di pagine statiche e blog, sono un amante del coding, certo, ogni tanto mi fa un po' sclerare, ma comunque io mi diverto, è una passione, con la formazione di siti web mi piace soprattutto la parte in HTML e meno la parte in CSS, comunque sto imparando un po' tutto da zero, mi interessano molti linguaggi di programmazione (html, css, lua e PHP), attualmente sto lavorando nella formazione di siti web in html e css su github!</p>
                 </td>
@@ -167,22 +174,28 @@
         </table>
 
         <h2>Il mio blog</h2>
-        <p>Ho un blog su Tumblr, è un social un po' vecchio ma valido. Lì ospito il mio blog perché amo scrivere. Sono felice che finalmente la gente possa vedere le mie scritture, anche se non ho molte visualizzazioni. Per me il fatto che siano già pubbliche è qualcosa...</p>
-        <ul>
-            <li><a href="https://gabbyupdates.tumblr.com/">Accedi subito al sito</a></li>
-        </ul>
+        <div class="rounded-box">
+            <p>Ho un blog su Tumblr, è un social un po' vecchio ma valido. Lì ospito il mio blog perché amo scrivere. Sono felice che finalmente la gente possa vedere le mie scritture, anche se non ho molte visualizzazioni. Per me il fatto che siano già pubbliche è qualcosa...</p>
+            <ul>
+                <li><a href="https://gabbyupdates.tumblr.com/">Accedi subito al sito</a></li>
+            </ul>
+        </div>
 
         <h2>GabbyUpdates</h2>
-        <p>Ho un sito degli aggiornamenti...</p>
-        <ul>
-            <li><a href="https://gabbysrealm.tumblr.com/">Accedi subito al blog</a></li>
-        </ul>
+        <div class="rounded-box">
+            <p>Ho un sito degli aggiornamenti...</p>
+            <ul>
+                <li><a href="https://gabbysrealm.tumblr.com/">Accedi subito al blog</a></li>
+            </ul>
+        </div>
 
         <h2>Accesso al codice</h2>
-        <p>Puoi accedere tranquillamente al codice dall'URL da qui.</p>
-        <ul>
-            <li><a href="https://github.com/GabbyStudiosDev/GJ/">Gabriel Jones GitHub page</a></li>
-        </ul>
+        <div class="rounded-box">
+            <p>Puoi accedere tranquillamente al codice dall'URL da qui.</p>
+            <ul>
+                <li><a href="https://github.com/GabbyStudiosDev/GJ/">Gabriel Jones GitHub page</a></li>
+            </ul>
+        </div>
     </div>
 
     <h2>Project</h2>
@@ -234,4 +247,3 @@
 </body>
 
 </html>
-t
