@@ -1,73 +1,12 @@
 <!DOCTYPE html>
 <html lang="it">
-    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/819d39859817c456abce9e2b0166f09c.js"></script>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel Jones</title>
 
-
-    
     <style>
-footer table {
-    border-collapse: collapse;
-    background-color: transparent; /* Imposta il colore di sfondo trasparente */
-}
-
-footer td {
-    border: 1px solid #582C2B; /* Modifica il colore dei bordi qui */
-    padding: 8px;
-}
-
-table {
-        width: 100%;
-        border-collapse: collapse;
-        background-color: transparent; /* Imposta lo sfondo trasparente */
-    }
-
-footer table {
-    background-color: transparent; /* Imposta il colore di sfondo trasparente */
-}
-
-        
-    td {
-        border: 1px solid black;
-        padding: 8px;
-    }
-
-    /* Stili per l'immagine nel footer */
-    footer img {
-        max-width: 100%;
-        height: auto;
-    }
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: lightgray; /* Puoi modificare il colore a tuo piacimento */
-}
-
-        
-body, html {
-    width: 100%;
-    margin: 30;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.miur-bar {
-    width: 100%; 
-    background-color: #582C2B;
-    color: #fff;
-    padding: 10px;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -76,6 +15,7 @@ body, html {
         }
 
         .miur-bar {
+            width: 100%;
             background-color: #582C2B;
             color: #fff;
             padding: 10px;
@@ -134,14 +74,14 @@ body, html {
         }
 
         footer {
-            background-color: #582C2B;
+            background-color: #E0856E;
             color: #fff;
             padding: 10px 0;
             width: 100%;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            position: relative;
+            flex-wrap: wrap; /* Per gestire il wrap su schermi più piccoli */
         }
 
         footer p {
@@ -197,119 +137,101 @@ body, html {
 
         content a:hover {
             text-decoration: underline;
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        iframe {
-            width: 100%;
-            border: none;
-        }
-        table {
-            border-collapse: collapse;
-            background-color: transparent;
-        }
-
-        td {
-            border: 1px solid black;
-            padding: 8px;
         }
     </style>
 </head>
-<iframe src="header.html" frameborder="0" scrolling="no" style="width: 100%;"></iframe>
 
 <body>
-<content>
-    <table>
+
+    <header>
+        <h1>Gabriel Jones</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <table>
+            <tr>
+                <td><img src="met.png" alt="Immagine di me"></td>
+                <td>
+                    <h2>Chi sono?</h2>
+                    <p>Conosciuto come onlygabby, il mio nome è Gabriel, sono un nerd, sono esperto nella formazione di pagine statiche e blog, sono un amante del coding, certo, ogni tanto mi fa un po' sclerare, ma comunque io mi diverto, è una passione, con la formazione di siti web mi piace soprattutto la parte in HTML e meno la parte in CSS, comunque sto imparando un po' tutto da zero, mi interessano molti linguaggi di programmazione (html, css, lua e PHP), attualmente sto lavorando nella formazione di siti web in html e css su github!</p>
+                </td>
+            </tr>
+        </table>
+
+        <h2>Il mio blog</h2>
+        <p>Ho un blog su Tumblr, è un social un po' vecchio ma valido. Lì ospito il mio blog perché amo scrivere. Sono felice che finalmente la gente possa vedere le mie scritture, anche se non ho molte visualizzazioni. Per me il fatto che siano già pubbliche è qualcosa...</p>
+        <ul>
+            <li><a href="https://gabbyupdates.tumblr.com/">Accedi subito al sito</a></li>
+        </ul>
+
+        <h2>GabbyUpdates</h2>
+        <p>Ho un sito degli aggiornamenti...</p>
+        <ul>
+            <li><a href="https://gabbysrealm.tumblr.com/">Accedi subito al blog</a></li>
+        </ul>
+
+        <h2>Accesso al codice</h2>
+        <p>Puoi accedere tranquillamente al codice dall'URL da qui.</p>
+        <ul>
+            <li><a href="https://github.com/GabbyStudiosDev/GJ/">Gabriel Jones GitHub page</a></li>
+        </ul>
+    </div>
+
+    <h2>Project</h2>
+    <table border="1">
         <tr>
-            <td><img src="met.png" alt="Immagine di me"></td>
             <td>
-                <h1>Chi sono?</h1>
-                <p>Conosciuto come onlygabby, il mio nome è Gabriel, sono un nerd, sono esperto nella formazione di pagine statiche e blog, sono un amante del coding, certo, ogni tanto mi fa un po' sclerare, ma comunque io mi diverto, è una passione, con la formazione di siti web mi piace soprattutto la parte in HTML e meno la parte in CSS, comunque sto imparando un po' tutto da zero, mi interessano molti linguaggi di programmazione (html, css, lua e PHP), attualmente sto lavorando nella formazione di siti web in html e css su github!</p>
+                <h3>Social</h3>
+                <p>Un socal per la condivisione dei propri sentimenti, esprimiti come ti senti!!!</p>
+                <p>Altri social sono stati eliminati per problemi di moderazione e gestione interna.</p>
+            </td>
+            <td>
+                <h3>System Mode</h3>
+                <p>Un progetto per la condivisione di messaggi direttamente dal tuo pc, tocca sul pop up per avere subito la chat con chi vuoi! Tutto con un click</p>
             </td>
         </tr>
     </table>
 
-    <div class="main-content">
-        <h1>Il mio blog</h1>
-        <p>Ho un blog su Tumblr, è un social un po' vecchio ma valido. Lì ospito il mio blog perché amo scrivere. Sono felice che finalmente la gente possa vedere le mie scritture, anche se non ho molte visualizzazioni. Per me il fatto che siano già pubbliche è qualcosa...</p>
-        <li><a href="https://gabbyupdates.tumblr.com/">Accedi subito al sito</a></li>
+    <h2>Cerchi un supporto per il tuo sito web?</h2>
+    <p>Io personalmente mi occupo della formazione in html e css del sito, se è di questo che hai bisogno, contattami all'indirizzo email "gabriel.jones@gabbycentral.it"</p>
 
-        <h1>GabbyUpdates</h1>
-        <p>Ho un sito degli aggiornamenti...</p>
-        <li><a href="https://gabbysrealm.tumblr.com/">Accedi subito al blog</a></li>
-
-        <h1>Accesso al codice</h1>
-        <p>Puoi accedere tranquillamente al codice dall'URL da qui.</p>
-        <li><a href="https://github.com/GabbyStudiosDev/GJ/">Gabriel Jones GitHub page</a></li>
-    </div>
-</content>
-
-
-<h1>Project</h1>
-<table border="1">
-    <tr>
-        <td>
-            
+    <footer>
+        <div>
+            <img src="https://gabrielsystem.altervista.org/wp-content/uploads/2024/03/icona-1.png" alt="Immagine di me" style="max-width: 20%; height: auto;">
+            <h2>Sito ufficiale Gabriel Jones</h2>
+            <p>&copy; 2024 GC-SS. Tutti i diritti riservati.</p>
+        </div>
+        <div class="footer-text">
+            <h2>Link</h2>
+            <ul>
+                <li><a href="https://gabbystudios.github.io/Pagina-Globale/">Pagina Globale</a></li>
+                <li><a href="https://sites.google.com/view/gabbystudios/">Dichiarazione di conformità hai siti di gabby studios</a></li>
+                <li><a href="https://github.com/GabbyStudiosDev">Gabby Studios</a></li>
+                <li><a href="https://www.instagram.com/777_.gab/">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@justgabbyme">Tik Tok</a></li>
+                <li><a href="https://gabrieljonesupdates.medium.com/">Medium</a></li>
+                <li><a href="https://github.com/GabbyStudios">Pagina GitHub</a></li>
+            </ul>
+        </div>
+        <div>
             <h2>Social</h2>
-            <h3>gtx (closed)</h3>
-            <p>Un socal per la condivisione dei propri sentimenti, esprimiti come ti senti!!!</p>
-            <h3>Connesso 1 v1-4.6.9.8.1.6.2</h3>
-            <p>Condividi con il tuo team, messaggi e documenti condivisibili con un click.</p>
-            <h3>Connesso 2</h3>
-            <p>Condividi comunicazioni con tutti i team e dipendenti della tua azienda, ora mai stato così semplice.</p>
-            <p>Gli altri social sono stati elliminati per problemi di moderazione e gestione interna.</p>
-        </td>
-        <td>
-            
-            <h2>System Mode</h2>
-            <p>Un progetto per la condivisione di messaggi direttamente dal tuo pc, tocca sul pop up per avere subito la chat con chi vuoi! Tutto con un click</p>
-        </td>
-    </tr>
-</table>
-
-<h1>Cerchi un supporto per il tuo sito web?</h1>
-<p>Io personalmente mi occupo della formazione in html e css del sito, se è di questo che hai bisogno, contattami all'indirizzo email "gabriel.jones@gabbycentral.it"</p>
-
-
-
-<footer>
-    <table border="1" style="#582C2B;">
-        <tr>        
-            <td>
-                <img src="https://gabrielsystem.altervista.org/wp-content/uploads/2024/03/icona-1.png" alt="Immagine di me" style="max-width: 20%; height: auto;">
-                <h1>Sito ufficiale Gabriel Jones</h1>
-                <div class="container">
-                    <p>&copy; 2024 GC-SS. Tutti i diritti riservati.</p>
-                </div>
-            </td>
-            <td>
-            </td>
-            <td> 
-                <div class="container footer-text">
-                    <h1>Link</h1>
-                    <li><a href="https://gabbystudios.github.io/Pagina-Globale/">Pagina Globale</a></li>
-                    <li><a href="https://sites.google.com/view/gabbystudios/">Dichiarazione di conformità hai siti di gabby studios</a></li>
-                    <li><a href="https://github.com/GabbyStudiosDev">Gabby Studios</a></li>
-                    <li><a href="https://www.instagram.com/777_.gab/">Instagram</a></li>
-                    <li><a href="https://www.tiktok.com/@justgabbyme">Tik Tok</a></li>
-                    <li><a href="https://gabrieljonesupdates.medium.com/">Medium</a></li>
-                    <li><a href="https://github.com/GabbyStudios">Pagina GitHub</a></li>
-                </div>  
-            </td>
-            <td>
-                <h1>Social</h1>
+            <ul>
                 <li><a href="https://gabrieljonesupdates.medium.com/">Medium</a></li>
                 <li><a href="https://www.instagram.com/777_.gab/">Instagram</a></li>
                 <li><a href="https://www.tiktok.com/@justgabbyme">Tik Tok</a></li>
-            </td>    
-        </tr>
-    </table>
-</footer>
+            </ul>
+        </div>
+    </footer>
 
 </body>
+
 </html>
+t
